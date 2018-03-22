@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import css from './app.scss';
 
 var jumboHeight = $('.jumbotron').outerHeight();
