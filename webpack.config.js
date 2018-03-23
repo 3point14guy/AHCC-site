@@ -70,10 +70,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Project Demo',
+            title: 'Asheville Homeschool Culture Club',
             // hash: true,  this will add a special id to the files built by webpack in the dist folder and a new hash generates each time your run
             excludeChunks: ['contact'],
-            filename: 'index.html',
+            filename: './../index.html',
             template: './src/index.html'
 
         }),
